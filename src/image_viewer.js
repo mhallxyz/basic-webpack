@@ -1,6 +1,13 @@
+import big from '../assets/big.jpg';
+import small from '../assets/small.png'
 import '../styles/image_viewer.css';
 
 const image = document.createElement('img');
-image.src = 'https://mhall.xyz/static/media/mhallxyz1.92974727.png';
+image.src = small;
 
 document.body.appendChild(image);
+
+const bigImage = document.createElement('img');
+bigImage.src = big;
+
+document.body.appendChild(bigImage);
